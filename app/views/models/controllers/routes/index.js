@@ -1,0 +1,5 @@
+modelu.exports = function(application) {
+    application.get('/', function(req, res) {
+        res.send('teste');
+    });
+}
